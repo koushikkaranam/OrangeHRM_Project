@@ -10,11 +10,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
-import Objects.HomePageObjects;
-import Objects.LoginPageObejcts;
-import Objects.TimemodulePageObjects;
-import Objects.AddCutomerPageObjects;
+import g_Objects.AddCutomerPageObjects;
+import g_Objects.HomePageObjects;
+import g_Objects.LoginPageObejcts;
+import g_Objects.TimemodulePageObjects;
 
 public class AddCustomerFunctionality {
     private WebDriver driver;

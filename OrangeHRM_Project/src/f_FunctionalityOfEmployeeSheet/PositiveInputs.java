@@ -8,11 +8,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
-
-import Objects.HomePageObjects;
-import Objects.LoginPageObejcts;
-import Objects.EmployeeTimeSheetObjects;
+import g_Objects.EmployeeTimeSheetObjects;
+import g_Objects.HomePageObjects;
+import g_Objects.LoginPageObejcts;
 
 public class PositiveInputs {
     private WebDriver driver;

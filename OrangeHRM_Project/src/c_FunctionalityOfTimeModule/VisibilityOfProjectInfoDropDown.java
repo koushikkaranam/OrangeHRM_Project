@@ -8,12 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import g_Objects.HomePageObjects;
+import g_Objects.LoginPageObejcts;
+import g_Objects.TimemodulePageObjects;
+
 import org.testng.Assert;
-
-
-import Objects.HomePageObjects;
-import Objects.LoginPageObejcts;
-import Objects.TimemodulePageObjects;
 
 public class VisibilityOfProjectInfoDropDown {
     private WebDriver driver;

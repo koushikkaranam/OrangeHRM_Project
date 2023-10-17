@@ -10,10 +10,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
-import Objects.HomePageObjects;
-import Objects.LoginPageObejcts;
-import Objects.TimemodulePageObjects;
+import g_Objects.HomePageObjects;
+import g_Objects.LoginPageObejcts;
+import g_Objects.TimemodulePageObjects;
 
 public class VisibilityOfAttendenceDropDown {
     private static final HomePageObjects TimemodulePageObject = null;
